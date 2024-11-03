@@ -43,6 +43,11 @@ class GSNetFlaskServer:
 
                 return jsonify(gg_return)
             except Exception as e:
+                # Clear CUDA memory
+                if(self.device.type == 'cuda'):
+                    torch.cuda.empty_cache()
+                # Reload checkpoint
+                self._load_checkpoint()
                 return jsonify({'error': str(e)})
                 
     
