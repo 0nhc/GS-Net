@@ -1,5 +1,5 @@
 # checkpoint_path: path to the checkpoint file
-checkpoint_path: "/home/zhengxiao-han/Downloads/minkresunet_epoch10-1.tar"
+checkpoint_path: "/home/zhengxiao-han/gsnet_weights.tar"
 # voxel_size: voxel size for the input point cloud
 voxel_size: 0.005
 # seed_feat_dim: feature dimension for the seed points
