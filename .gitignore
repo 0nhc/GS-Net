@@ -18,3 +18,5 @@ dataset/tolerance
 data
 MinkowskiEngine
 corl_example/*.tar
+venv/
+weights/*.tar

@@ -1,5 +1,5 @@
 # checkpoint_path: path to the checkpoint file
-checkpoint_path: "/home/zhengxiao-han/gsnet_weights.tar"
+checkpoint_path: "weights/gsnet_weights.tar"
 # voxel_size: voxel size for the input point cloud
 voxel_size: 0.005
 # seed_feat_dim: feature dimension for the seed points
@@ -13,4 +13,4 @@ max_num_grasps: 50
 # sample number for the point cloud
 num_points: 10000
 # flag indicating whether to visualize the grasping poses
-visualize: False
+visualize: True
