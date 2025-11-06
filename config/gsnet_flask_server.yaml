@@ -13,4 +13,4 @@ max_num_grasps: 50
 # sample number for the point cloud
 num_points: 10000
 # flag indicating whether to visualize the grasping poses
-visualize: True
+visualize: False
